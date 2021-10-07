@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="/Users/jnoguera/compass.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="compass.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="49.5"
+     inkscape:cy="704.5"
+     inkscape:window-width="2262"
+     inkscape:window-height="1313"
+     inkscape:window-x="60"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#cccccc;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 110.25177,144.92448 v 7.40524 h 1.41646 v -7.40524 z"
+       id="path4868"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ff8888;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 110.25177,2.2251871 v 7.4047158 h 1.41646 V 2.2251871 Z"
+       id="rect1584"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1801"
+       style="fill:#aaaaaa;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 186.01227,76.569223 h -7.40472 v 1.41646 h 7.40472 z m -142.699297,0 h -7.40524 v 1.41646 h 7.40524 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1902"
+       style="fill:#cccccc;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 186.01227,76.569223 h -7.40472 v 1.41646 h 7.40472 z m -142.699297,0 h -7.40524 v 1.41646 h 7.40524 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1990"
+       style="fill:#cccccc;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 163.52917,23.706693 -5.23592,5.235925 1.00159,1.001588 5.23592,-5.235925 z M 62.625535,124.61033 l -5.236296,5.2363 1.001589,1.00158 5.236295,-5.23629 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1992"
+       style="fill:#cccccc;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="m 164.53076,129.84662 -5.23593,-5.23592 -1.00158,1.00159 5.23592,5.23592 z M 63.627121,28.942987 l -5.2363,-5.236296 -1.00158,1.001589 5.23629,5.236295 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4852"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 113.94168,6.8596235 -0.14821,2.8279874 1.41451,0.074131 0.14821,-2.8279875 z m -7.22884,137.9345765 -0.14821,2.82799 1.41451,0.0741 0.14821,-2.82799 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:0.29377;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3801"
+       cx="110.95987"
+       cy="77.27787"
+       r="65.889984"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4855"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 117.62301,7.112157 -0.29602,2.816355 1.40869,0.148059 0.29602,-2.816355 z m -14.43788,137.367213 -0.29601,2.81636 1.40869,0.14803 0.29602,-2.81636 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4857"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.28607,7.5570103 -0.44301,2.7970027 1.39901,0.221581 0.44301,-2.7970024 z M 99.678736,143.98035 l -0.443002,2.797 1.399016,0.22156 0.44301,-2.79701 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4859"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.92083,8.1929639 -0.58879,2.7699841 1.3855,0.294496 0.58879,-2.769984 z M 96.203264,143.2985 l -0.588779,2.76998 1.385503,0.29448 0.588787,-2.76999 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4861"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.51733,9.0182745 -0.73296,2.7353735 1.36819,0.366603 0.73296,-2.7353725 z M 92.76824,142.43569 l -0.732941,2.73537 1.368192,0.36659 0.73295,-2.73538 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4863"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.0657,10.03068 -0.87511,2.693265 1.34713,0.437706 0.87511,-2.693264 z m -42.68262,131.36361 -0.875095,2.69326 1.347131,0.43769 0.875104,-2.69327 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4865"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.55623,11.227406 -1.01487,2.643774 1.32238,0.507609 1.01486,-2.643773 z m -49.499168,128.949744 -1.014851,2.64377 1.322378,0.50759 1.01486,-2.64378 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4867"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 138.97934,12.605172 -1.15184,2.587037 1.294,0.576121 1.15183,-2.587036 z m -56.180038,126.182438 -1.151825,2.58703 1.294001,0.5761 1.151834,-2.58704 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4869"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 142.32565,14.160202 -1.28565,2.523209 1.26207,0.643054 1.28565,-2.523209 z m -62.706921,123.069268 -1.285641,2.52321 1.262077,0.64303 1.285651,-2.52321 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4871"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 145.58599,15.888233 -1.41594,2.452465 1.22669,0.708224 1.41594,-2.452465 z m -69.061928,119.618777 -1.415934,2.45247 1.226694,0.7082 1.415944,-2.45247 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4873"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 148.75143,17.784529 -1.54235,2.374999 1.18794,0.771453 1.54235,-2.374999 z m -75.227647,115.840421 -1.542346,2.375 1.187948,0.77143 1.542356,-2.375 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4875"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 151.81328,19.843892 -1.66453,2.291024 1.14594,0.832568 1.66453,-2.291024 z m -81.187165,111.744558 -1.66453,2.29102 1.145946,0.83255 1.66454,-2.29103 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4877"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 154.76316,22.060678 -1.78215,2.200769 1.10079,0.891401 1.78216,-2.200769 z M 67.839,129.40309 l -1.782151,2.20076 1.100803,0.89138 1.782162,-2.20077 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path4879"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 157.59298,24.42881 -1.89489,2.104483 1.05263,0.94779 1.8949,-2.104482 z m -92.422902,102.64604 -1.894888,2.10448 1.052643,0.94777 1.894899,-2.10449 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5041"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 162.86177,29.592756 -2.10449,1.894888 0.94779,1.052628 2.10449,-1.894888 z m -102.64604,92.422914 -2.104492,1.89489 0.947813,1.05261 2.104492,-1.8949 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5043"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 165.28629,32.374417 -2.20078,1.782146 0.8914,1.100788 2.20078,-1.782146 z m -107.34241,86.924163 -2.200778,1.78216 0.891422,1.10077 2.200785,-1.78215 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5045"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 167.56191,35.27915 -2.29104,1.664525 0.83257,1.145931 2.29103,-1.664524 z m -111.744564,81.18718 -2.291028,1.66452 0.832587,1.14592 2.291041,-1.66452 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5047"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 169.68238,38.299001 -2.37501,1.542337 0.77146,1.187937 2.37501,-1.542337 z m -115.840423,75.227659 -2.375002,1.54234 0.77147,1.18793 2.375014,-1.54235 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5049"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 171.64191,41.425693 -2.45248,1.41592 0.70823,1.226684 2.45248,-1.415919 z m -119.618783,69.061937 -2.452466,1.41593 0.708239,1.22668 2.45248,-1.41594 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5051"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 173.43511,44.650649 -2.52322,1.285629 0.64306,1.26207 2.52322,-1.285629 z m -123.069272,62.706931 -2.523208,1.28563 0.643072,1.26206 2.523221,-1.28563 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5053"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 175.05707,47.965039 -2.58705,1.151809 0.57613,1.293998 2.58704,-1.151816 z M 48.874636,104.14508 46.2876,105.2969 l 0.576143,1.29398 2.587049,-1.15182 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5055"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 176.50335,51.359771 -2.64379,1.014838 0.50762,1.322375 2.64378,-1.014844 z m -128.949745,49.499169 -2.64377,1.01485 0.507633,1.32236 2.643783,-1.01485 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5057"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 177.76997,54.825542 -2.69327,0.875086 0.43772,1.347126 2.69327,-0.875086 z m -131.363598,42.682625 -2.693265,0.875093 0.437733,1.347114 2.693271,-0.875086 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5059"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 178.85348,58.352853 -2.73537,0.732934 0.36661,1.36819 2.73537,-0.732933 z M 45.436075,94.101944 42.7007,94.834885 l 0.366631,1.368177 2.735382,-0.732935 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5061"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 179.7509,61.932041 -2.76998,0.588771 0.2945,1.3855 2.76998,-0.588771 z m -135.105525,28.717567 -2.769982,0.588776 0.294522,1.385489 2.769989,-0.588768 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5063"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.45977,65.553285 -2.797,0.442998 0.22159,1.399017 2.79699,-0.442999 z m -136.423333,21.60734 -2.796996,0.442995 0.221604,1.399008 2.797011,-0.442995 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5065"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.97814,69.20667 -2.81635,0.296008 0.14806,1.408692 2.81636,-0.296002 z m -137.367208,14.437884 -2.816343,0.296001 0.148084,1.408686 2.816358,-0.296 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5067"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.30461,72.882177 -2.82799,0.148204 0.0741,1.414511 2.82799,-0.148197 z m -137.934577,7.22885 -2.82798,0.148204 0.07416,1.414505 2.827995,-0.148203 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5069"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.37874,80.259254 -2.82799,-0.148211 -0.0741,1.414509 2.82799,0.148211 z m -137.934582,-7.228842 -2.82799,-0.148211 -0.0741,1.414512 2.827997,0.148204 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5071"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.1262,83.940579 -2.81635,-0.296019 -0.14806,1.40869 2.81635,0.296019 z m -137.367209,-14.43788 -2.816363,-0.296008 -0.148031,1.408692 2.81636,0.29602 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5073"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.68135,87.603642 -2.79701,-0.443013 -0.22157,1.399012 2.79699,0.443006 z M 44.258007,65.996309 l -2.796995,-0.443008 -0.22156,1.399015 2.797004,0.443018 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5075"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.04539,91.238398 -2.76998,-0.588789 -0.29449,1.385503 2.76998,0.588789 z M 44.939857,62.520837 l -2.769979,-0.588781 -0.294482,1.385505 2.769995,0.588783 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5077"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 179.22009,94.8349 -2.73538,-0.732959 -0.3666,1.368191 2.73537,0.73296 z M 45.802668,59.085811 43.067299,58.35287 l -0.366593,1.368194 2.735386,0.732945 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5079"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 178.20768,98.383272 -2.69326,-0.875109 -0.43771,1.347131 2.69326,0.875109 z m -131.363612,-42.68262 -2.693255,-0.8751 -0.437691,1.347132 2.693264,0.875108 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5081"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 177.01095,101.8738 -2.64377,-1.01487 -0.50761,1.32238 2.64377,1.01486 z M 48.061209,52.374632 l -2.64377,-1.014851 -0.507588,1.322377 2.64378,1.01486 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5083"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 175.63319,105.29691 -2.58704,-1.15184 -0.57612,1.294 2.58704,1.15183 z M 49.450751,49.11687 l -2.587035,-1.15182 -0.576099,1.294 2.587044,1.15183 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5085"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 174.07815,108.64322 -2.52321,-1.28565 -0.64304,1.26207 2.52321,1.28565 z M 51.008889,45.9363 l -2.52321,-1.285642 -0.643029,1.262077 2.523209,1.285651 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5087"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 172.35013,111.90356 -2.45247,-1.41594 -0.70822,1.22669 2.45246,1.41594 z M 52.731349,42.841633 l -2.45247,-1.415935 -0.7082,1.226694 2.452471,1.415944 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5089"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 170.45383,115.069 -2.375,-1.54235 -0.77145,1.18794 2.375,1.54235 z M 54.61341,39.841353 l -2.375001,-1.542345 -0.77143,1.187947 2.375,1.542356 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5091"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.39447,118.13085 -2.29102,-1.66453 -0.83257,1.14594 2.29102,1.66453 z M 56.649909,36.943685 l -2.291019,-1.66453 -0.832551,1.145946 2.29103,1.664541 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5093"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 166.17768,121.08073 -2.20077,-1.78215 -0.8914,1.10079 2.20077,1.78216 z M 58.835269,34.15657 56.63451,32.374419 l -0.89138,1.100803 2.200769,1.782162 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5095"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 163.80955,123.91055 -2.10448,-1.89489 -0.94782,1.05261 2.10448,1.8949 z M 61.163509,31.487648 l -2.10448,-1.894888 -0.947767,1.052645 2.10449,1.894899 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5177"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.6456,129.17934 -1.89489,-2.10449 -1.05261,0.94781 1.89489,2.10449 z M 66.222682,26.533296 l -1.89489,-2.104492 -1.052607,0.947815 1.894899,2.104491 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5179"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 155.86393,131.60385 -1.78214,-2.20077 -1.10079,0.8914 1.78215,2.20077 z M 68.939772,24.261447 l -1.78216,-2.200779 -1.100769,0.891422 1.782149,2.200785 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5181"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 152.9592,133.87947 -1.66453,-2.29104 -1.14592,0.83258 1.66452,2.29102 z M 71.772022,22.134912 l -1.66452,-2.291028 -1.14592,0.832587 1.66452,2.291041 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5183"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 149.93935,135.99994 -1.54234,-2.375 -1.18793,0.77146 1.54233,2.37501 z M 74.711693,20.159523 l -1.54234,-2.375002 -1.18793,0.77147 1.542349,2.375015 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5185"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.81266,137.95948 -1.41592,-2.45249 -1.22668,0.70824 1.41591,2.45248 z M 77.750722,18.340693 l -1.41593,-2.452466 -1.22668,0.708239 1.41594,2.45248 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5187"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.5877,139.75268 -1.28562,-2.52322 -1.26208,0.64306 1.28563,2.52321 z M 80.880772,16.683405 l -1.285629,-2.523208 -1.262061,0.643072 1.285631,2.52322 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5189"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.27331,141.37464 -1.1518,-2.58705 -1.294,0.57613 1.15181,2.58704 z M 84.093272,15.192202 l -1.151819,-2.587036 -1.293981,0.576143 1.15182,2.587049 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5191"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.87858,142.82092 -1.01484,-2.64379 -1.32237,0.50762 1.01485,2.64378 z M 87.379412,13.871171 l -1.01485,-2.64377 -1.322359,0.507633 1.014849,2.643783 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5193"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 133.41281,144.08754 -0.87509,-2.69328 -1.34712,0.43773 0.87509,2.69327 z M 90.730185,12.723938 l -0.875093,-2.693265 -1.347113,0.437733 0.875086,2.693271 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5195"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.8855,145.17105 -0.73293,-2.73538 -1.36819,0.36661 0.73293,2.73538 z M 94.136408,11.753641 93.403467,9.0182661 92.035291,9.3848967 92.768226,12.120279 Z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5197"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 126.30631,146.06847 -0.58877,-2.76999 -1.3855,0.29451 0.58877,2.76998 z M 97.588745,10.962941 96.999968,8.1929593 95.614479,8.4874813 96.203247,11.25747 Z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5199"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 122.68507,146.77733 -0.443,-2.79699 -1.39901,0.22158 0.44299,2.797 z m -21.60734,-136.423327 -0.443,-2.7969957 -1.399006,0.2216037 0.442995,2.797011 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5201"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.03168,147.29571 -0.29601,-2.81635 -1.40869,0.14806 0.296,2.81636 z M 104.5938,9.9284978 l -0.296,-2.8163427 -1.40869,0.1480844 0.296,2.8163575 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path5203"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.35618,147.62217 -0.14821,-2.82798 -1.41451,0.0741 0.14819,2.82799 z M 108.12733,9.6875992 107.97912,6.859619 l -1.4145,0.07416 0.1482,2.8279951 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#ff8888;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="110.96"
+       y="25.929171"
+       id="text5771"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan5769"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#ff8888;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="110.96"
+         y="25.929171">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-110.94333"
+       y="-128.58754"
+       id="text11501"
+       transform="scale(-1)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan11499"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="-110.94333"
+         y="-128.58754">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-24.290861"
+       y="-183.94279"
+       id="text12503"
+       transform="rotate(135)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12501"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="-24.290861"
+         y="-183.94279">SE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="24.307524"
+       y="81.284424"
+       id="text12507"
+       transform="rotate(-45)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12505"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="24.307524"
+         y="81.284424">NW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-133.07381"
+       y="-26.56146"
+       id="text14461"
+       transform="rotate(-135)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="-133.07381"
+         y="-26.56146">SW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="133.09047"
+       y="-76.096909"
+       id="text14465"
+       transform="rotate(45)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14463"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="133.09047"
+         y="-76.096909">NE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="77.258354"
+       y="-162.28918"
+       id="text15657"
+       transform="rotate(90)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan15655"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="77.258354"
+         y="-162.28918">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-77.241684"
+       y="59.630814"
+       id="text15661"
+       transform="rotate(-90)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan15659"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;stroke-width:0.264583;stroke:none;stroke-opacity:1;fill-opacity:1"
+         x="-77.241684"
+         y="59.630814">W</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:0.11604;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1288"
+       cx="110.95987"
+       cy="77.27787"
+       r="26.026766"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.25177,324.84126 v 7.40524 h 1.41646 v -7.40524 z"
+       id="path1157"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ff8888;fill-opacity:1;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.25177,182.14191 v 7.40472 h 1.41646 v -7.40472 z"
+       id="path1159"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1161"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.01227,256.48599 h -7.40472 v 1.41646 h 7.40472 z m -142.699297,0 h -7.40524 v 1.41646 h 7.40524 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1163"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.01227,256.48599 h -7.40472 v 1.41646 h 7.40472 z m -142.699297,0 h -7.40524 v 1.41646 h 7.40524 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1165"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 163.52917,203.62343 -5.23592,5.23593 1.00159,1.00158 5.23592,-5.23592 z m -100.903635,100.90368 -5.236296,5.2363 1.001589,1.00158 5.236295,-5.23629 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1167"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.306364;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 164.53076,309.7634 -5.23593,-5.23592 -1.00158,1.00159 5.23592,5.23592 z M 63.627121,208.85972 l -5.2363,-5.23629 -1.00158,1.00158 5.23629,5.2363 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1169"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 113.94168,186.77635 -0.14821,2.82799 1.41451,0.0741 0.14821,-2.82799 z m -7.22884,137.93463 -0.14821,2.82799 1.41451,0.0741 0.14821,-2.82799 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:0.29377;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1171"
+       cx="110.95987"
+       cy="257.19464"
+       r="65.889984"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1173"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 117.62301,187.02888 -0.29602,2.81636 1.40869,0.14806 0.29602,-2.81636 z m -14.43788,137.36727 -0.29601,2.81636 1.40869,0.14803 0.29602,-2.81636 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1175"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.28607,187.47374 -0.44301,2.797 1.39901,0.22158 0.44301,-2.797 z m -21.607334,136.42339 -0.443002,2.797 1.399016,0.22156 0.44301,-2.79701 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1177"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.92083,188.10969 -0.58879,2.76999 1.3855,0.29449 0.58879,-2.76998 z m -28.717566,135.10559 -0.588779,2.76998 1.385503,0.29448 0.588787,-2.76999 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1179"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.51733,188.935 -0.73296,2.73538 1.36819,0.3666 0.73296,-2.73538 z m -35.74909,133.41747 -0.732941,2.73537 1.368192,0.36659 0.73295,-2.73538 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1181"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.0657,189.94741 -0.87511,2.69326 1.34713,0.43771 0.87511,-2.69326 z m -42.68262,131.36366 -0.875095,2.69326 1.347131,0.43769 0.875104,-2.69327 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1183"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.55623,191.14413 -1.01487,2.64378 1.32238,0.50761 1.01486,-2.64378 z m -49.499168,128.9498 -1.014851,2.64377 1.322378,0.50759 1.01486,-2.64378 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1185"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 138.97934,192.5219 -1.15184,2.58704 1.294,0.57612 1.15183,-2.58704 z m -56.180038,126.18249 -1.151825,2.58703 1.294001,0.5761 1.151834,-2.58704 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1187"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 142.32565,194.07693 -1.28565,2.52321 1.26207,0.64306 1.28565,-2.52322 z m -62.706921,123.06932 -1.285641,2.52321 1.262077,0.64303 1.285651,-2.52321 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1189"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 145.58599,195.80496 -1.41594,2.45247 1.22669,0.70822 1.41594,-2.45246 z m -69.061928,119.61883 -1.415934,2.45247 1.226694,0.7082 1.415944,-2.45247 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1191"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 148.75143,197.70126 -1.54235,2.375 1.18794,0.77146 1.54235,-2.37501 z m -75.227647,115.84047 -1.542346,2.375 1.187948,0.77143 1.542356,-2.375 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1193"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 151.81328,199.76062 -1.66453,2.29103 1.14594,0.83257 1.66453,-2.29103 z m -81.187165,111.74461 -1.66453,2.29102 1.145946,0.83255 1.66454,-2.29103 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1195"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 154.76316,201.97741 -1.78215,2.20077 1.10079,0.8914 1.78216,-2.20077 z M 67.839,309.31987 l -1.782151,2.20076 1.100803,0.89138 1.782162,-2.20077 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1197"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 157.59298,204.34554 -1.89489,2.10449 1.05263,0.94779 1.8949,-2.10448 z m -92.422902,102.64609 -1.894888,2.10448 1.052643,0.94777 1.894899,-2.10449 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1199"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 162.86177,209.50949 -2.10449,1.89489 0.94779,1.05263 2.10449,-1.89489 z m -102.64604,92.42296 -2.104492,1.89489 0.947813,1.05261 2.104492,-1.8949 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1201"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 165.28629,212.29116 -2.20078,1.78214 0.8914,1.10079 2.20078,-1.78214 z m -107.34241,86.9242 -2.200778,1.78216 0.891422,1.10077 2.200785,-1.78215 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1203"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 167.56191,215.19589 -2.29104,1.66453 0.83257,1.14593 2.29103,-1.66453 z m -111.744564,81.18722 -2.291028,1.66452 0.832587,1.14592 2.291041,-1.66452 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1205"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 169.68238,218.21574 -2.37501,1.54234 0.77146,1.18794 2.37501,-1.54234 z m -115.840423,75.2277 -2.375002,1.54234 0.77147,1.18793 2.375014,-1.54235 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1207"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 171.64191,221.34244 -2.45248,1.41592 0.70823,1.22668 2.45248,-1.41592 z m -119.618783,69.06197 -2.452466,1.41593 0.708239,1.22668 2.45248,-1.41594 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1209"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 173.43511,224.5674 -2.52322,1.28562 0.64306,1.26208 2.52322,-1.28563 z m -123.069272,62.70696 -2.523208,1.28563 0.643072,1.26206 2.523221,-1.28563 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1211"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 175.05707,227.88179 -2.58705,1.15181 0.57613,1.294 2.58704,-1.15182 z m -126.182434,56.18007 -2.587036,1.15182 0.576143,1.29398 2.587049,-1.15182 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1213"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 176.50335,231.27652 -2.64379,1.01484 0.50762,1.32238 2.64378,-1.01485 z m -128.949745,49.4992 -2.64377,1.01485 0.507633,1.32236 2.643783,-1.01485 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1215"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 177.76997,234.74229 -2.69327,0.87509 0.43772,1.34713 2.69327,-0.87509 z m -131.363598,42.68265 -2.693265,0.8751 0.437733,1.34711 2.693271,-0.87509 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1217"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 178.85348,238.26961 -2.73537,0.73293 0.36661,1.36819 2.73537,-0.73293 z m -133.417405,35.74911 -2.735375,0.73294 0.366631,1.36818 2.735382,-0.73294 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1219"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 179.7509,241.8488 -2.76998,0.58877 0.2945,1.3855 2.76998,-0.58877 z m -135.105525,28.71758 -2.769982,0.58878 0.294522,1.38549 2.769989,-0.58877 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1221"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.45977,245.47004 -2.797,0.443 0.22159,1.39902 2.79699,-0.443 z m -136.423333,21.60736 -2.796996,0.44299 0.221604,1.39901 2.797011,-0.443 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1223"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.97814,249.12343 -2.81635,0.29601 0.14806,1.40869 2.81636,-0.296 z m -137.367208,14.43789 -2.816343,0.296 0.148084,1.40869 2.816358,-0.296 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1225"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.30461,252.79894 -2.82799,0.1482 0.0741,1.41452 2.82799,-0.1482 z m -137.934577,7.22885 -2.82798,0.14821 0.07416,1.4145 2.827995,-0.1482 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1227"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.37874,260.17602 -2.82799,-0.14821 -0.0741,1.41451 2.82799,0.14821 z m -137.934582,-7.22885 -2.82799,-0.14821 -0.0741,1.41452 2.827997,0.1482 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1229"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.1262,263.85735 -2.81635,-0.29602 -0.14806,1.40869 2.81635,0.29602 z m -137.367209,-14.43789 -2.816363,-0.29601 -0.148031,1.40869 2.81636,0.29602 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1231"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.68135,267.52041 -2.79701,-0.44301 -0.22157,1.39901 2.79699,0.44301 z m -136.423343,-21.60734 -2.796995,-0.44301 -0.22156,1.39901 2.797004,0.44302 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1233"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.04539,271.15517 -2.76998,-0.58879 -0.29449,1.38551 2.76998,0.58878 z m -135.105533,-28.71758 -2.769979,-0.58878 -0.294482,1.38551 2.769995,0.58878 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1235"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 179.22009,274.75168 -2.73538,-0.73297 -0.3666,1.3682 2.73537,0.73296 z m -133.417422,-35.74911 -2.735369,-0.73294 -0.366593,1.36819 2.735386,0.73294 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1237"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 178.20768,278.30005 -2.69326,-0.87511 -0.43771,1.34713 2.69326,0.87511 z M 46.844068,235.6174 l -2.693255,-0.8751 -0.437691,1.34714 2.693264,0.8751 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1239"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 177.01095,281.79058 -2.64377,-1.01487 -0.50761,1.32238 2.64377,1.01486 z m -128.949741,-49.4992 -2.64377,-1.01485 -0.507588,1.32238 2.64378,1.01486 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1241"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 175.63319,285.21369 -2.58704,-1.15184 -0.57612,1.294 2.58704,1.15183 z m -126.182439,-56.18007 -2.587035,-1.15182 -0.576099,1.294 2.587044,1.15183 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1243"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 174.07815,288.56 -2.52321,-1.28565 -0.64304,1.26207 2.52321,1.28565 z m -123.069261,-62.70695 -2.52321,-1.28565 -0.643029,1.26208 2.523209,1.28566 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1245"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 172.35013,291.82034 -2.45247,-1.41594 -0.70822,1.22669 2.45246,1.41594 z m -119.618781,-69.06196 -2.45247,-1.41594 -0.7082,1.2267 2.452471,1.41594 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1247"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 170.45383,294.98578 -2.375,-1.54235 -0.77145,1.18794 2.375,1.54235 z M 54.61341,219.7581 l -2.375001,-1.54235 -0.77143,1.18795 2.375,1.54235 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1249"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.39447,298.04763 -2.29102,-1.66453 -0.83257,1.14594 2.29102,1.66453 z m -111.744561,-81.1872 -2.291019,-1.66453 -0.832551,1.14594 2.29103,1.66455 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1251"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 166.17768,300.99751 -2.20077,-1.78215 -0.8914,1.10079 2.20077,1.78216 z m -107.342411,-86.9242 -2.200759,-1.78215 -0.89138,1.1008 2.200769,1.78216 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1253"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 163.80955,303.82733 -2.10448,-1.89489 -0.94782,1.05261 2.10448,1.8949 z m -102.646041,-92.42294 -2.10448,-1.89489 -0.947767,1.05264 2.10449,1.8949 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1255"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.6456,309.09612 -1.89489,-2.10449 -1.05261,0.94781 1.89489,2.10449 z m -92.422918,-102.64609 -1.89489,-2.10449 -1.052607,0.94781 1.894899,2.1045 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1257"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 155.86393,311.52063 -1.78214,-2.20077 -1.10079,0.8914 1.78215,2.20077 z m -86.924158,-107.34245 -1.78216,-2.20078 -1.100769,0.89142 1.782149,2.20079 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1259"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 152.9592,313.79625 -1.66453,-2.29104 -1.14592,0.83258 1.66452,2.29102 z m -81.187178,-111.7446 -1.66452,-2.29103 -1.14592,0.83259 1.66452,2.29104 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1261"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 149.93935,315.91672 -1.54234,-2.375 -1.18793,0.77146 1.54233,2.37501 z m -75.227657,-115.84047 -1.54234,-2.375 -1.18793,0.77147 1.542349,2.37502 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1263"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.81266,317.87626 -1.41592,-2.45249 -1.22668,0.70824 1.41591,2.45248 z m -69.061938,-119.61884 -1.41593,-2.45246 -1.22668,0.70824 1.41594,2.45248 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1265"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.5877,319.66946 -1.28562,-2.52322 -1.26208,0.64306 1.28563,2.52321 z m -62.706928,-123.06932 -1.285629,-2.52321 -1.262061,0.64307 1.285631,2.52322 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1267"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.27331,321.29142 -1.1518,-2.58705 -1.294,0.57613 1.15181,2.58704 z m -56.180038,-126.18249 -1.151819,-2.58704 -1.293981,0.57615 1.15182,2.58705 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1269"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.87858,322.7377 -1.01484,-2.64379 -1.32237,0.50762 1.01485,2.64378 z m -49.499168,-128.9498 -1.01485,-2.64377 -1.322359,0.50763 1.014849,2.64379 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1271"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 133.41281,324.00432 -0.87509,-2.69328 -1.34712,0.43773 0.87509,2.69327 z m -42.682625,-131.36365 -0.875093,-2.69327 -1.347113,0.43773 0.875086,2.69328 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1273"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.8855,325.08783 -0.73293,-2.73538 -1.36819,0.36661 0.73293,2.73538 z m -35.749092,-133.41746 -0.732941,-2.73538 -1.368176,0.36663 0.732935,2.73539 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1275"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 126.30631,325.98525 -0.58877,-2.76999 -1.3855,0.29451 0.58877,2.76998 z m -28.717565,-135.10558 -0.588777,-2.76999 -1.385489,0.29453 0.588768,2.76999 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1277"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 122.68507,326.69411 -0.443,-2.79699 -1.39901,0.22158 0.44299,2.797 z m -21.60734,-136.42338 -0.443,-2.797 -1.399006,0.22161 0.442995,2.79701 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1279"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.03168,327.21249 -0.29601,-2.81635 -1.40869,0.14806 0.296,2.81636 z m -14.43788,-137.36727 -0.296,-2.81634 -1.40869,0.14808 0.296,2.81637 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path1281"
+       style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:0.189468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.35618,327.53895 -0.14821,-2.82798 -1.41451,0.0741 0.14819,2.82799 z m -7.22885,-137.93463 -0.14821,-2.82798 -1.4145,0.0742 0.1482,2.828 z"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#ff8888;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="110.96"
+       y="205.8459"
+       id="text1285"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#ff8888;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="110.96"
+         y="205.8459">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-110.94333"
+       y="-308.50424"
+       id="text1289"
+       transform="scale(-1)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="-110.94333"
+         y="-308.50424">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="102.92944"
+       y="-311.16293"
+       id="text1293"
+       transform="rotate(135)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="102.92944"
+         y="-311.16293">SE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-102.91278"
+       y="208.50478"
+       id="text1297"
+       transform="rotate(-45)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="-102.91278"
+         y="208.50478">NW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-260.29416"
+       y="-153.78177"
+       id="text1301"
+       transform="rotate(-135)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1299"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="-260.29416"
+         y="-153.78177">SW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="260.31082"
+       y="51.123371"
+       id="text1305"
+       transform="rotate(45)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1303"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="260.31082"
+         y="51.123371">NE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="257.17511"
+       y="-162.28918"
+       id="text1309"
+       transform="rotate(90)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1307"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="257.17511"
+         y="-162.28918">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Silom;-inkscape-font-specification:Silom;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="-257.15845"
+       y="59.630814"
+       id="text1313"
+       transform="rotate(-90)"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1311"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Silom;-inkscape-font-specification:Silom;text-align:center;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="-257.15845"
+         y="59.630814">W</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:0.11604;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1315"
+       cx="110.95987"
+       cy="257.19464"
+       r="26.026766"
+       inkscape:export-filename="/Users/jnoguera/AndroidStudioProjects/CompassGps/app/src/main/res/drawable/compass.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
