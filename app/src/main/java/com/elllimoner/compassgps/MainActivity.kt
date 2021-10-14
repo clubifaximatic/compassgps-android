@@ -7,12 +7,14 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 
 import com.elllimoner.compassgps.compass.CompassSensorEvaluator
+import com.elllimoner.compassgps.compass.CompassSensorInitializeListener
 import com.elllimoner.compassgps.compass.CompassSensorListener
 import com.elllimoner.compassgps.databinding.ActivityMainBinding
 import com.elllimoner.compassgps.widget.CompassImageView
@@ -44,6 +46,21 @@ class MainActivity : AppCompatActivity(), CompassSensorListener {
 
         val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         compassSensorEvaluator = CompassSensorEvaluator(sensorManager)
+
+        val context = this;
+        compassSensorEvaluator.init(object : CompassSensorInitializeListener {
+            override fun onInit() {
+                // nop
+            }
+
+            override fun onError(message: String) {
+                AlertDialog.Builder(context)
+                    .setTitle("Sensor not found")
+                    .setMessage(message)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show()
+            }
+        });
     }
 
     override fun onStart() {
