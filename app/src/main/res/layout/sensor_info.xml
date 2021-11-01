@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sensorInfoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="SENSOR" />
+
+    <TextView
+        android:id="@+id/sensorInfoProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/sensorInfoAccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/accuracy_bad"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

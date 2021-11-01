@@ -1,66 +1,44 @@
 package com.elllimoner.compassgps
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.hardware.SensorManager
-import android.os.Build
+import android.location.*
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.widget.TextView
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-
+import androidx.core.app.ActivityCompat
 import com.elllimoner.compassgps.compass.CompassSensorEvaluator
 import com.elllimoner.compassgps.compass.CompassSensorInitializeListener
 import com.elllimoner.compassgps.compass.CompassSensorListener
-import com.elllimoner.compassgps.databinding.ActivityMainBinding
+import com.elllimoner.compassgps.gps.GpsSensorEvaluator
+import com.elllimoner.compassgps.gps.GpsSensorListener
 import com.elllimoner.compassgps.widget.CompassImageView
-
+import com.elllimoner.compassgps.widget.SensorInfoView
+import kotlin.math.abs
 import kotlin.math.floor
 
 
-class MainActivity : AppCompatActivity(), CompassSensorListener {
-
-    private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityMainBinding
+class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
 
     private lateinit var compassSensorEvaluator: CompassSensorEvaluator
+    private lateinit var gpsSensorEvaluator: GpsSensorEvaluator
     private lateinit var compassImage: CompassImageView
     private lateinit var courseText: TextView
+    private lateinit var altitudeText: TextView
+
+    private lateinit var accuracyCompass: SensorInfoView
+    private lateinit var accuracyGps: SensorInfoView
+    private lateinit var debugText: TextView
+
     private var currentCourse = 0f
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        initializeCompassSensorEvaluator()
 
-//        setSupportActionBar(binding.toolbar)
-
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
-//        setupActionBarWithNavController(navController, appBarConfiguration)
-
-        val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
-        compassSensorEvaluator = CompassSensorEvaluator(sensorManager)
-
-        val context = this;
-        compassSensorEvaluator.init(object : CompassSensorInitializeListener {
-            override fun onInit() {
-                // nop
-            }
-
-            override fun onError(message: String) {
-                AlertDialog.Builder(context)
-                    .setTitle("Sensor not found")
-                    .setMessage(message)
-                    .setIcon(android.R.drawable.ic_dialog_alert)
-                    .show()
-            }
-        });
+        initializeGpsSensorEvaluator()
     }
 
     override fun onStart() {
@@ -68,63 +46,102 @@ class MainActivity : AppCompatActivity(), CompassSensorListener {
 
         compassImage = findViewById(R.id.imgCompass)
         courseText = findViewById(R.id.txtCourse)
+        altitudeText = findViewById(R.id.txtAltitude)
+        debugText = findViewById(R.id.txtDebug)
+        accuracyCompass = findViewById(R.id.accuracyCompass)
+        accuracyGps = findViewById(R.id.accuracyGps)
     }
 
     override fun onResume() {
         super.onResume()
 
         compassSensorEvaluator.registerListener(this)
+        gpsSensorEvaluator.registerListener(this, this)
     }
 
     override fun onPause() {
         super.onPause()
 
         compassSensorEvaluator.unregisterListener(this)
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //menuInflater.inflate(R.menu.menu_main, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
-            R.id.action_settings -> true
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        return navController.navigateUp(appBarConfiguration)
-                || super.onSupportNavigateUp()
+        gpsSensorEvaluator.unregisterListener(this)
     }
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
-        permissions: Array<out String>,
+        permissions: Array<String>,
         grantResults: IntArray
     ) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        when (requestCode) {
+            1 -> {
+                // If request is cancelled, the result arrays are empty.
+                if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+                    initializeGpsSensorEvaluator()
+                } else {
+                    // Explain to the user that the feature is unavailable because
+                    // the features requires a permission that the user has denied.
+                    // At the same time, respect the user's decision. Don't link to
+                    // system settings in an effort to convince the user to change
+                    // their decision.
+                }
+                return
+            }
+            else -> {
+                // nop
+            }
+        }
     }
 
-    @RequiresApi(Build.VERSION_CODES.Q)
-    override fun onSensorChanged(course: Float, pitch: Float, roll: Float) {
-        if (Math.abs(currentCourse - course) < 1) {
+    override fun onSensorChanged(yaw: Float, pitch: Float, roll: Float) {
+        if (abs(currentCourse - yaw) < 1) {
             return
         }
 
-        currentCourse = course
-        courseText.text = "${floor(course).toInt()}"
-
-        compassImage.setCourse(course)
+        currentCourse = yaw
+        courseText.text = resources.getString(R.string.courseValueFormat, floor(yaw).toInt())
+        compassImage.setCourse(yaw)
     }
 
-    override fun onAccuracyChanged(accuracy: Int) {
-        // nop
+    override fun onAccuracyChanged(provider: String, accuracy: Int) {
+        accuracyCompass.provider = provider
+        accuracyCompass.accuracy = accuracy
+    }
+
+    override fun onGpsChanged(location: Location) {
+        altitudeText.text = resources.getString(R.string.altitudeValueFormat, location.altitude.toInt())
+    }
+
+    override fun onGpsAccuracyChanged(provider: String, accuracy: Int) {
+        accuracyGps.provider = provider
+        accuracyGps.accuracy = accuracy
+    }
+
+    private fun initializeCompassSensorEvaluator() {
+        val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        compassSensorEvaluator = CompassSensorEvaluator(sensorManager)
+
+        val context = this;
+        compassSensorEvaluator.init(object : CompassSensorInitializeListener {
+            override fun onError(message: String) {
+                AlertDialog.Builder(context)
+                    .setTitle("Sensor not found")
+                    .setMessage(R.string.noSensorFoundForCompass)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show()
+            }
+        });
+    }
+
+    private fun initializeGpsSensorEvaluator() {
+        gpsSensorEvaluator = GpsSensorEvaluator(this)
+
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), 1
+            )
+        }
     }
 }

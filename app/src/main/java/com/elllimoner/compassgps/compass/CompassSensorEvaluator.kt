@@ -4,6 +4,7 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
+import com.elllimoner.compassgps.R
 
 class CompassSensorEvaluator : SensorEventListener {
 
@@ -48,8 +49,9 @@ class CompassSensorEvaluator : SensorEventListener {
         if (compass != null) {
             return
         }
-    }
 
+        listener.onError("")
+    }
     fun registerListener(listener: CompassSensorListener) {
         listeners.add(listener)
 
@@ -98,8 +100,9 @@ class CompassSensorEvaluator : SensorEventListener {
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
+        val provider = if (sensor?.name == null) "" else sensor.name
         for (value in listeners) {
-            value.onAccuracyChanged(accuracy)
+            value.onAccuracyChanged(provider, accuracy)
         }
     }
 

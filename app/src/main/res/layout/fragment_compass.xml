@@ -8,17 +8,53 @@
     android:padding="8dp"
     tools:context=".FirstFragment">
 
-    <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
+<!--    <Button-->
+<!--        android:id="@+id/button_first"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/next"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgCompass" />-->
+
+    <LinearLayout
+        android:id="@+id/accuracy"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/next"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/imgCompass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgCompass" />
+        app:layout_constraintTop_toTopOf="parent" >
 
+        <com.elllimoner.compassgps.widget.SensorInfoView
+            android:id="@+id/accuracyCompass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:sensorName="Compass"
+            android:padding="8dp"
+            android:layout_weight="1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/accuracyGps"
+            />
+
+        <com.elllimoner.compassgps.widget.SensorInfoView
+            android:id="@+id/accuracyGps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:sensorName="GPS"
+            android:padding="8dp"
+            android:layout_weight="1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/accuracyCompass"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+    </LinearLayout>
 
     <com.elllimoner.compassgps.widget.CompassImageView
         android:id="@+id/imgCompass"
@@ -26,30 +62,47 @@
         android:layout_height="0dp"
         android:scaleType="centerInside"
         android:src="@drawable/compass"
-        app:layout_constraintBottom_toTopOf="@+id/button_first"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/accuracy" />
 
-    <TextView
-        android:id="@+id/txtCourse"
+    <LinearLayout
+        android:id="@+id/layCompassText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:text="@string/zero"
-        android:textColor="@color/red"
-        android:textSize="34sp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/imgCompass"
         app:layout_constraintBottom_toBottomOf="@+id/imgCompass"
-        app:layout_constraintEnd_toEndOf="@+id/imgCompass"
         app:layout_constraintStart_toStartOf="@+id/imgCompass"
-        app:layout_constraintTop_toTopOf="@+id/imgCompass" />
+        app:layout_constraintEnd_toEndOf="@+id/imgCompass" >
+
+        <TextView
+            android:id="@+id/txtCourse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="34sp"/>
+
+        <TextView
+            android:id="@+id/txtAltitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="34sp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="1dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:background="@color/red"
-        app:layout_constraintBottom_toTopOf="@+id/txtCourse"
+        app:layout_constraintBottom_toTopOf="@+id/layCompassText"
         app:layout_constraintEnd_toEndOf="@+id/imgCompass"
         app:layout_constraintStart_toStartOf="@+id/imgCompass"
         app:layout_constraintTop_toTopOf="@+id/imgCompass" />
@@ -62,6 +115,14 @@
         app:layout_constraintBottom_toBottomOf="@+id/imgCompass"
         app:layout_constraintEnd_toEndOf="@+id/imgCompass"
         app:layout_constraintStart_toStartOf="@+id/imgCompass"
-        app:layout_constraintTop_toBottomOf="@+id/txtCourse" />
+        app:layout_constraintTop_toBottomOf="@+id/layCompassText" />
 
+    <TextView
+        android:id="@+id/txtDebug"
+        android:layout_width="353dp"
+        android:layout_height="124dp"
+        android:background="#FBC02D"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="569dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
