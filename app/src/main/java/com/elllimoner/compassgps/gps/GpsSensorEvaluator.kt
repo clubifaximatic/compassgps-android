@@ -52,7 +52,7 @@ class GpsSensorEvaluator : LocationListener {
     override fun onLocationChanged(location: Location) {
         for (value in listeners) {
             value.onGpsChanged(location)
-            value.onGpsAccuracyChanged(location.provider, toAccuracy(location))
+            value.onGpsAccuracyChanged(location.provider.orEmpty(),toAccuracy(location))
         }
     }
 
