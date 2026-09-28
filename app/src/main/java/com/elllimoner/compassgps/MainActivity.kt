@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.hardware.SensorManager
 import android.location.*
+import android.os.Build
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -109,8 +110,15 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     }
 
     override fun onGpsChanged(location: Location) {
-        altitudeText.text = if (location.hasAltitude()) {
-            resources.getString(R.string.altitudeValueFormat, location.altitude.toInt())
+        val altitude = when {
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE && location.hasMslAltitude() ->
+                location.mslAltitudeMeters
+            // Before Android 14 only the altitude above the WGS84 ellipsoid is available
+            location.hasAltitude() -> location.altitude
+            else -> null
+        }
+        altitudeText.text = if (altitude != null) {
+            resources.getString(R.string.altitudeValueFormat, altitude.toInt())
         } else {
             resources.getString(R.string.unknown)
         }

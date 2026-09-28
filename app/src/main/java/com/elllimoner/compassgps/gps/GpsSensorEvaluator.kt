@@ -6,9 +6,18 @@ import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
+import android.location.altitude.AltitudeConverter
+import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import java.io.IOException
+import java.util.concurrent.LinkedBlockingQueue
+import java.util.concurrent.ThreadPoolExecutor
+import java.util.concurrent.TimeUnit
 import kotlin.math.roundToInt
 
 class GpsSensorEvaluator : LocationListener {
@@ -17,13 +26,23 @@ class GpsSensorEvaluator : LocationListener {
     private val ACCURACY_GOOD: Int = 2
     private val ACCURACY_VERY_GOOD: Int = 3
 
+    private val context: Context
     private val locationManager: LocationManager?
+
+    @get:RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
+    private val altitudeConverter by lazy { AltitudeConverter() }
+    // Single worker that stops when idle, so no thread outlives this evaluator
+    private val altitudeExecutor by lazy {
+        ThreadPoolExecutor(0, 1, 15, TimeUnit.SECONDS, LinkedBlockingQueue())
+    }
+    private val mainHandler = Handler(Looper.getMainLooper())
 
     private val listeners: MutableSet<GpsSensorListener> = mutableSetOf()
 
     constructor(
         context: Context
     ) {
+        this.context = context.applicationContext
         val locationManager = context.getSystemService(AppCompatActivity.LOCATION_SERVICE) as LocationManager?
         this.locationManager = locationManager
     }
@@ -48,6 +67,27 @@ class GpsSensorEvaluator : LocationListener {
     }
 
     override fun onLocationChanged(location: Location) {
+        // GPS altitude is height above the WGS84 ellipsoid; add the altitude above
+        // mean sea level. The conversion may read the geoid model from disk, so it
+        // runs off the main thread.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE
+            && location.hasAltitude() && !location.hasMslAltitude()
+        ) {
+            altitudeExecutor.execute {
+                try {
+                    altitudeConverter.addMslAltitudeToLocation(context, location)
+                } catch (_: IOException) {
+                    // keep the ellipsoid altitude only
+                }
+                mainHandler.post { notifyLocationChanged(location) }
+            }
+            return
+        }
+
+        notifyLocationChanged(location)
+    }
+
+    private fun notifyLocationChanged(location: Location) {
         for (value in listeners) {
             value.onGpsChanged(location)
             value.onGpsAccuracyChanged(location.provider.orEmpty(),toAccuracy(location))
