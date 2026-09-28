@@ -3,7 +3,6 @@ package com.elllimoner.compassgps.gps
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
-import android.location.Criteria
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
@@ -89,12 +88,9 @@ class GpsSensorEvaluator : LocationListener {
                 Manifest.permission.ACCESS_FINE_LOCATION
             ) == PackageManager.PERMISSION_GRANTED
         ) {
-            val criteria = Criteria()
-            criteria.verticalAccuracy = Criteria.ACCURACY_HIGH
-            val bestProvider = locationManager?.getBestProvider(criteria, false)
-
-            if (bestProvider != null) {
-                locationManager?.requestLocationUpdates(bestProvider, 1000, 1f, this)
+            // GPS only: never fall back to network (cell/Wi-Fi) positioning
+            if (locationManager?.allProviders?.contains(LocationManager.GPS_PROVIDER) == true) {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1f, this)
             }
         }
     }
