@@ -16,8 +16,10 @@
 
     <string name="noSensorFoundForCompass">The device do not have a sensor compatible with compass</string>
     <string name="noSensorFoundForGps">The device do not have a GPS sensor</string>
+    <string name="gpsDisabled">GPS disabled</string>
 
-    <string name="courseValueFormat">%d °"</string>
-    <string name="altitudeValueFormat">%d m"</string>
+    <string name="courseValueFormat">%d °</string>
+    <string name="altitudeValueFormat">%d m</string>
+    <string name="speedValueFormat">%.1f km/h</string>
 
 </resources>

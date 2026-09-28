@@ -6,4 +6,6 @@ interface GpsSensorListener {
     fun onGpsChanged(location: Location)
 
     fun onGpsAccuracyChanged(provider: String, accuracy: Int)
+
+    fun onGpsEnabledChanged(enabled: Boolean)
 }

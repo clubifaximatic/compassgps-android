@@ -3,14 +3,21 @@ package com.elllimoner.compassgps.gps
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
-import android.location.Criteria
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
+import android.location.altitude.AltitudeConverter
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import java.io.IOException
+import java.util.concurrent.LinkedBlockingQueue
+import java.util.concurrent.ThreadPoolExecutor
+import java.util.concurrent.TimeUnit
 import kotlin.math.roundToInt
 
 class GpsSensorEvaluator : LocationListener {
@@ -19,13 +26,23 @@ class GpsSensorEvaluator : LocationListener {
     private val ACCURACY_GOOD: Int = 2
     private val ACCURACY_VERY_GOOD: Int = 3
 
+    private val context: Context
     private val locationManager: LocationManager?
+
+    @get:RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
+    private val altitudeConverter by lazy { AltitudeConverter() }
+    // Single worker that stops when idle, so no thread outlives this evaluator
+    private val altitudeExecutor by lazy {
+        ThreadPoolExecutor(0, 1, 15, TimeUnit.SECONDS, LinkedBlockingQueue())
+    }
+    private val mainHandler = Handler(Looper.getMainLooper())
 
     private val listeners: MutableSet<GpsSensorListener> = mutableSetOf()
 
     constructor(
         context: Context
     ) {
+        this.context = context.applicationContext
         val locationManager = context.getSystemService(AppCompatActivity.LOCATION_SERVICE) as LocationManager?
         this.locationManager = locationManager
     }
@@ -50,6 +67,27 @@ class GpsSensorEvaluator : LocationListener {
     }
 
     override fun onLocationChanged(location: Location) {
+        // GPS altitude is height above the WGS84 ellipsoid; add the altitude above
+        // mean sea level. The conversion may read the geoid model from disk, so it
+        // runs off the main thread.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE
+            && location.hasAltitude() && !location.hasMslAltitude()
+        ) {
+            altitudeExecutor.execute {
+                try {
+                    altitudeConverter.addMslAltitudeToLocation(context, location)
+                } catch (_: IOException) {
+                    // keep the ellipsoid altitude only
+                }
+                mainHandler.post { notifyLocationChanged(location) }
+            }
+            return
+        }
+
+        notifyLocationChanged(location)
+    }
+
+    private fun notifyLocationChanged(location: Location) {
         for (value in listeners) {
             value.onGpsChanged(location)
             value.onGpsAccuracyChanged(location.provider.orEmpty(),toAccuracy(location))
@@ -60,20 +98,28 @@ class GpsSensorEvaluator : LocationListener {
         // nop
     }
 
-    private fun toAccuracy(location: Location): Int {
-        var hasAccuracy = location.hasAccuracy()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            hasAccuracy = location.hasVerticalAccuracy()
+    // Must be overridden: before API 30 these have no default implementation
+    // and the framework throws AbstractMethodError when GPS is toggled.
+    override fun onProviderEnabled(provider: String) {
+        notifyEnabledChanged(true)
+    }
+
+    override fun onProviderDisabled(provider: String) {
+        notifyEnabledChanged(false)
+    }
+
+    private fun notifyEnabledChanged(enabled: Boolean) {
+        for (value in listeners) {
+            value.onGpsEnabledChanged(enabled)
         }
-        if (!hasAccuracy) {
+    }
+
+    private fun toAccuracy(location: Location): Int {
+        if (!location.hasVerticalAccuracy()) {
             return ACCURACY_BAD
         }
 
-        var accuracy = location.accuracy
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            accuracy = location.verticalAccuracyMeters
-        }
-
+        val accuracy = location.verticalAccuracyMeters
         if (accuracy > 10) {
             return ACCURACY_LOW
         } else if (accuracy > 5) {
@@ -89,12 +135,10 @@ class GpsSensorEvaluator : LocationListener {
                 Manifest.permission.ACCESS_FINE_LOCATION
             ) == PackageManager.PERMISSION_GRANTED
         ) {
-            val criteria = Criteria()
-            criteria.verticalAccuracy = Criteria.ACCURACY_HIGH
-            val bestProvider = locationManager?.getBestProvider(criteria, false)
-
-            if (bestProvider != null) {
-                locationManager?.requestLocationUpdates(bestProvider, 1000, 1f, this)
+            // GPS only: never fall back to network (cell/Wi-Fi) positioning
+            if (locationManager?.allProviders?.contains(LocationManager.GPS_PROVIDER) == true) {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1f, this)
+                notifyEnabledChanged(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
             }
         }
     }

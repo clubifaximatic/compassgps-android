@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.hardware.SensorManager
 import android.location.*
+import android.os.Build
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -26,6 +27,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     private lateinit var compassImage: CompassImageView
     private lateinit var courseText: TextView
     private lateinit var altitudeText: TextView
+    private lateinit var speedText: TextView
 
     private lateinit var accuracyCompass: SensorInfoView
     private lateinit var accuracyGps: SensorInfoView
@@ -47,6 +49,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         compassImage = findViewById(R.id.imgCompass)
         courseText = findViewById(R.id.txtCourse)
         altitudeText = findViewById(R.id.txtAltitude)
+        speedText = findViewById(R.id.txtSpeed)
         debugText = findViewById(R.id.txtDebug)
         accuracyCompass = findViewById(R.id.accuracyCompass)
         accuracyGps = findViewById(R.id.accuracyGps)
@@ -107,12 +110,42 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     }
 
     override fun onGpsChanged(location: Location) {
-        altitudeText.text = resources.getString(R.string.altitudeValueFormat, location.altitude.toInt())
+        val altitude = when {
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE && location.hasMslAltitude() ->
+                location.mslAltitudeMeters
+            // Before Android 14 only the altitude above the WGS84 ellipsoid is available
+            location.hasAltitude() -> location.altitude
+            else -> null
+        }
+        altitudeText.text = if (altitude != null) {
+            resources.getString(R.string.altitudeValueFormat, altitude.toInt())
+        } else {
+            resources.getString(R.string.unknown)
+        }
+        speedText.text = if (location.hasSpeed()) {
+            // Location.speed is in m/s
+            resources.getString(R.string.speedValueFormat, location.speed * 3.6f)
+        } else {
+            resources.getString(R.string.unknown)
+        }
     }
 
     override fun onGpsAccuracyChanged(provider: String, accuracy: Int) {
         accuracyGps.provider = provider
         accuracyGps.accuracy = accuracy
+    }
+
+    override fun onGpsEnabledChanged(enabled: Boolean) {
+        if (enabled) {
+            accuracyGps.provider = ""
+            return
+        }
+
+        // Don't leave the last values on screen while GPS is off
+        altitudeText.text = resources.getString(R.string.unknown)
+        speedText.text = resources.getString(R.string.unknown)
+        accuracyGps.provider = resources.getString(R.string.gpsDisabled)
+        accuracyGps.accuracy = 0
     }
 
     private fun initializeCompassSensorEvaluator() {
@@ -140,7 +173,12 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             ActivityCompat.requestPermissions(
-                this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), 1
+                this,
+                arrayOf(
+                    Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+                ),
+                1
             )
         }
     }
