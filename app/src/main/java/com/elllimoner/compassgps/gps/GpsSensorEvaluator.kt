@@ -6,7 +6,6 @@ import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
-import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -59,20 +58,22 @@ class GpsSensorEvaluator : LocationListener {
         // nop
     }
 
+    // Must be overridden: before API 30 these have no default implementation
+    // and the framework throws AbstractMethodError when GPS is toggled.
+    override fun onProviderEnabled(provider: String) {
+        // nop
+    }
+
+    override fun onProviderDisabled(provider: String) {
+        // nop
+    }
+
     private fun toAccuracy(location: Location): Int {
-        var hasAccuracy = location.hasAccuracy()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            hasAccuracy = location.hasVerticalAccuracy()
-        }
-        if (!hasAccuracy) {
+        if (!location.hasVerticalAccuracy()) {
             return ACCURACY_BAD
         }
 
-        var accuracy = location.accuracy
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            accuracy = location.verticalAccuracyMeters
-        }
-
+        val accuracy = location.verticalAccuracyMeters
         if (accuracy > 10) {
             return ACCURACY_LOW
         } else if (accuracy > 5) {
