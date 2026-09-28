@@ -128,10 +128,12 @@
 
     <TextView
         android:id="@+id/txtDebug"
-        android:layout_width="353dp"
-        android:layout_height="124dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lines="3"
         android:background="#FBC02D"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="569dp" />
+        app:layout_constraintBottom_toTopOf="@id/accuracy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
