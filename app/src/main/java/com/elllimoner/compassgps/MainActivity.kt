@@ -127,6 +127,19 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         accuracyGps.accuracy = accuracy
     }
 
+    override fun onGpsEnabledChanged(enabled: Boolean) {
+        if (enabled) {
+            accuracyGps.provider = ""
+            return
+        }
+
+        // Don't leave the last values on screen while GPS is off
+        altitudeText.text = resources.getString(R.string.unknown)
+        speedText.text = resources.getString(R.string.unknown)
+        accuracyGps.provider = resources.getString(R.string.gpsDisabled)
+        accuracyGps.accuracy = 0
+    }
+
     private fun initializeCompassSensorEvaluator() {
         val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         compassSensorEvaluator = CompassSensorEvaluator(sensorManager)

@@ -61,11 +61,17 @@ class GpsSensorEvaluator : LocationListener {
     // Must be overridden: before API 30 these have no default implementation
     // and the framework throws AbstractMethodError when GPS is toggled.
     override fun onProviderEnabled(provider: String) {
-        // nop
+        notifyEnabledChanged(true)
     }
 
     override fun onProviderDisabled(provider: String) {
-        // nop
+        notifyEnabledChanged(false)
+    }
+
+    private fun notifyEnabledChanged(enabled: Boolean) {
+        for (value in listeners) {
+            value.onGpsEnabledChanged(enabled)
+        }
     }
 
     private fun toAccuracy(location: Location): Int {
@@ -92,6 +98,7 @@ class GpsSensorEvaluator : LocationListener {
             // GPS only: never fall back to network (cell/Wi-Fi) positioning
             if (locationManager?.allProviders?.contains(LocationManager.GPS_PROVIDER) == true) {
                 locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1f, this)
+                notifyEnabledChanged(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
             }
         }
     }
