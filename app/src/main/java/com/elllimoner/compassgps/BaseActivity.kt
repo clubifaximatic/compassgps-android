@@ -1,4 +1,4 @@
-package com.elllimoner.compassgps;
+package com.elllimoner.compassgps
 
 import android.os.Bundle
 import android.view.Menu

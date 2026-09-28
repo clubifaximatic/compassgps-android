@@ -18,7 +18,6 @@ import java.io.IOException
 import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
-import kotlin.math.roundToInt
 
 class GpsSensorEvaluator : LocationListener {
     private val ACCURACY_BAD: Int = 0
@@ -94,6 +93,7 @@ class GpsSensorEvaluator : LocationListener {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {
         // nop
     }

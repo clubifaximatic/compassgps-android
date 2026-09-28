@@ -44,7 +44,7 @@ class SensorInfoView (context: Context, attrs: AttributeSet): LinearLayout(conte
     }
 
     private fun init(attrs: AttributeSet?) {
-        View.inflate(context, R.layout.sensor_info, this)
+        inflate(context, R.layout.sensor_info, this)
 
         val attributes = context.obtainStyledAttributes(attrs, R.styleable.SenorInfoView)
         try {

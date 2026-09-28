@@ -74,6 +74,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         permissions: Array<String>,
         grantResults: IntArray
     ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             1 -> {
                 // If request is cancelled, the result arrays are empty.
@@ -152,7 +153,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         val sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         compassSensorEvaluator = CompassSensorEvaluator(sensorManager)
 
-        val context = this;
+        val context = this
         compassSensorEvaluator.init(object : CompassSensorInitializeListener {
             override fun onError(message: String) {
                 AlertDialog.Builder(context)
@@ -161,7 +162,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .show()
             }
-        });
+        })
     }
 
     private fun initializeGpsSensorEvaluator() {

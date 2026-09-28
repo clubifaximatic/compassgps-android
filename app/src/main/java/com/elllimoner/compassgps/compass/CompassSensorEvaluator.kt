@@ -4,7 +4,6 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
-import com.elllimoner.compassgps.R
 
 class CompassSensorEvaluator : SensorEventListener {
 
@@ -149,7 +148,7 @@ class CompassSensorEvaluator : SensorEventListener {
     }
 
     private fun updateRotationVector(newValues: FloatArray) {
-        SensorManager.getRotationMatrixFromVector(rotationMatrixR, newValues);
+        SensorManager.getRotationMatrixFromVector(rotationMatrixR, newValues)
         val rads = FloatArray(3)
         SensorManager.getOrientation(rotationMatrixR, rads)
 

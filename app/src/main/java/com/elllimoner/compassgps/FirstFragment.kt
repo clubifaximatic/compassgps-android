@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.WindowInsets
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.elllimoner.compassgps.databinding.FragmentCompassBinding
 
 /**
@@ -25,7 +24,7 @@ class FirstFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentCompassBinding.inflate(inflater, container, false)
         return binding.root
     }
