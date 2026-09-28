@@ -24,10 +24,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/imgCompass"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toBottomOf="@id/imgCompass" >
 
         <com.elllimoner.compassgps.widget.SensorInfoView
             android:id="@+id/accuracyCompass"
@@ -62,10 +62,10 @@
         android:layout_height="0dp"
         android:scaleType="centerInside"
         android:src="@drawable/compass"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/accuracy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/accuracy" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/layCompassText"
@@ -93,7 +93,7 @@
             android:text="@string/unknown"
             android:textAlignment="center"
             android:textColor="@color/red"
-            android:textSize="34sp" />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txtSpeed"
@@ -102,7 +102,7 @@
             android:text="@string/unknown"
             android:textAlignment="center"
             android:textColor="@color/red"
-            android:textSize="34sp" />
+            android:textSize="24sp" />
 
     </LinearLayout>
 
