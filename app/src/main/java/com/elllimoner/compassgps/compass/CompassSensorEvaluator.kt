@@ -100,6 +100,11 @@ class CompassSensorEvaluator : SensorEventListener {
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
+        // Heading quality depends on the magnetometer, not on the accelerometer
+        if (sensor?.type == Sensor.TYPE_ACCELEROMETER) {
+            return
+        }
+
         val provider = if (sensor?.name == null) "" else sensor.name
         for (value in listeners) {
             value.onAccuracyChanged(provider, accuracy)
