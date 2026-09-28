@@ -26,6 +26,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     private lateinit var compassImage: CompassImageView
     private lateinit var courseText: TextView
     private lateinit var altitudeText: TextView
+    private lateinit var speedText: TextView
 
     private lateinit var accuracyCompass: SensorInfoView
     private lateinit var accuracyGps: SensorInfoView
@@ -47,6 +48,7 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         compassImage = findViewById(R.id.imgCompass)
         courseText = findViewById(R.id.txtCourse)
         altitudeText = findViewById(R.id.txtAltitude)
+        speedText = findViewById(R.id.txtSpeed)
         debugText = findViewById(R.id.txtDebug)
         accuracyCompass = findViewById(R.id.accuracyCompass)
         accuracyGps = findViewById(R.id.accuracyGps)
@@ -107,7 +109,17 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     }
 
     override fun onGpsChanged(location: Location) {
-        altitudeText.text = resources.getString(R.string.altitudeValueFormat, location.altitude.toInt())
+        altitudeText.text = if (location.hasAltitude()) {
+            resources.getString(R.string.altitudeValueFormat, location.altitude.toInt())
+        } else {
+            resources.getString(R.string.unknown)
+        }
+        speedText.text = if (location.hasSpeed()) {
+            // Location.speed is in m/s
+            resources.getString(R.string.speedValueFormat, location.speed * 3.6f)
+        } else {
+            resources.getString(R.string.unknown)
+        }
     }
 
     override fun onGpsAccuracyChanged(provider: String, accuracy: Int) {
