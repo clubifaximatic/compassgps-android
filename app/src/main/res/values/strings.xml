@@ -23,5 +23,7 @@
     <string name="courseValueFormat">%d °</string>
     <string name="altitudeValueFormat">%d m</string>
     <string name="speedValueFormat">%.1f km/h</string>
+    <string name="altitudeValueFormatImperial">%d ft</string>
+    <string name="speedValueFormatImperial">%.1f mph</string>
 
 </resources>

@@ -62,11 +62,14 @@ open class BaseActivity : AppCompatActivity() {
                 val unitSystem =
                     if (item.itemId == R.id.units_imperial) UnitSystem.IMPERIAL else UnitSystem.METRIC
                 UnitSystem.save(this, unitSystem)
+                onUnitSystemChanged(unitSystem)
                 true
             }
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+    protected open fun onUnitSystemChanged(unitSystem: UnitSystem) {}
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
