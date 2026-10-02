@@ -46,6 +46,11 @@ open class BaseActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
+        val checkedId = when (UnitSystem.load(this)) {
+            UnitSystem.METRIC -> R.id.units_metric
+            UnitSystem.IMPERIAL -> R.id.units_imperial
+        }
+        menu.findItem(checkedId).isChecked = true
         return true
     }
 
@@ -54,6 +59,9 @@ open class BaseActivity : AppCompatActivity() {
             // Radio items in a menu are not checked automatically
             R.id.units_metric, R.id.units_imperial -> {
                 item.isChecked = true
+                val unitSystem =
+                    if (item.itemId == R.id.units_imperial) UnitSystem.IMPERIAL else UnitSystem.METRIC
+                UnitSystem.save(this, unitSystem)
                 true
             }
             else -> super.onOptionsItemSelected(item)
