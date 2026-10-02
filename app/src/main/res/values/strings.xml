@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Compass</string>
-    <string name="action_settings">Settings</string>
+    <string name="units">Units</string>
+    <string name="units_metric">Metric (m, km/h)</string>
+    <string name="units_imperial">Imperial (ft, mph)</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Compass</string>
     <string name="second_fragment_label">Gps</string>

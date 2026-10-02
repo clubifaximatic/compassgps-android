@@ -52,7 +52,8 @@ class FirstFragment : Fragment() {
         requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
     }
 
-    // Android 15+ draws edge-to-edge: pad content away from system bars and the notch
+    // Android 15+ draws edge-to-edge: pad content away from system bars and the notch.
+    // The top is already covered by the app bar.
     private fun applySystemBarInsets(view: View) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
             return
@@ -66,7 +67,7 @@ class FirstFragment : Fragment() {
             val bars = insets.getInsets(
                 WindowInsets.Type.systemBars() or WindowInsets.Type.displayCutout()
             )
-            v.setPadding(left + bars.left, top + bars.top, right + bars.right, bottom + bars.bottom)
+            v.setPadding(left + bars.left, top, right + bars.right, bottom + bars.bottom)
             insets
         }
         view.requestApplyInsets()
