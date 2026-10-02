@@ -34,9 +34,14 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     private lateinit var debugText: TextView
 
     private var currentCourse = 0f
+    private lateinit var unitSystem: UnitSystem
+    // kept to redraw the values when the unit system changes
+    private var lastLocation: Location? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        unitSystem = UnitSystem.load(this)
 
         initializeCompassSensorEvaluator()
 
@@ -110,7 +115,20 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
     }
 
     override fun onGpsChanged(location: Location) {
+        lastLocation = location
+        showLocation()
+    }
+
+    override fun onUnitSystemChanged(unitSystem: UnitSystem) {
+        this.unitSystem = unitSystem
+        showLocation()
+    }
+
+    // Shows the last location in the current unit system, or unknown values without one
+    private fun showLocation() {
+        val location = lastLocation
         val altitude = when {
+            location == null -> null
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE && location.hasMslAltitude() ->
                 location.mslAltitudeMeters
             // Before Android 14 only the altitude above the WGS84 ellipsoid is available
@@ -118,13 +136,19 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
             else -> null
         }
         altitudeText.text = if (altitude != null) {
-            resources.getString(R.string.altitudeValueFormat, altitude.toInt())
+            resources.getString(
+                unitSystem.altitudeFormat,
+                unitSystem.altitudeFromMeters(altitude).toInt()
+            )
         } else {
             resources.getString(R.string.unknown)
         }
-        speedText.text = if (location.hasSpeed()) {
+        speedText.text = if (location != null && location.hasSpeed()) {
             // Location.speed is in m/s
-            resources.getString(R.string.speedValueFormat, location.speed * 3.6f)
+            resources.getString(
+                unitSystem.speedFormat,
+                unitSystem.speedFromMetersPerSecond(location.speed)
+            )
         } else {
             resources.getString(R.string.unknown)
         }
@@ -142,8 +166,8 @@ class MainActivity : BaseActivity(), CompassSensorListener, GpsSensorListener {
         }
 
         // Don't leave the last values on screen while GPS is off
-        altitudeText.text = resources.getString(R.string.unknown)
-        speedText.text = resources.getString(R.string.unknown)
+        lastLocation = null
+        showLocation()
         accuracyGps.provider = resources.getString(R.string.gpsDisabled)
         accuracyGps.accuracy = 0
     }
